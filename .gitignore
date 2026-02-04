@@ -26,3 +26,6 @@ data/
 *.csv
 *.pkl
 *.h5
+
+# Pytest
+.pytest_cache/
