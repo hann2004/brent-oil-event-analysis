@@ -1,0 +1,25 @@
+site_name: Brent Oil Analysis
+site_description: Bayesian Change Point Analysis of Brent Oil Prices
+site_url: https://hann2004.github.io/brent-analysis
+
+theme:
+  name: material
+  # Add this for slightly faster rendering
+  features:
+    - navigation.instant  # Faster page loads
+    - navigation.tracking  # Auto-highlight current page
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
+    
+
+nav:
+  - Home: index.md
+  - Task 1: methodology.md
+  - Task 2: results.md
+  - Notebooks:
+    - EDA: notebooks/01_eda.ipynb
+    - Bayesian Model: notebooks/02_bayesian_model.ipynb
