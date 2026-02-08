@@ -20,6 +20,8 @@ nav:
   - Home: index.md
   - Task 1: methodology.md
   - Task 2: results.md
+  # Dev note: ensure clean working tree (git status), then `git pull --rebase origin task-2`
   - Notebooks:
-    - EDA: notebooks/01_eda.ipynb
-    - Bayesian Model: notebooks/02_bayesian_model.ipynb
+    - Events: notebooks/00_event.ipynb
+    - EDA (Task 2): notebooks/01_eda.ipynb
+    - Bayesian Model (Task 2): notebooks/02_bayesian_model.ipynb
