@@ -145,6 +145,11 @@ Identify points in time when the statistical properties of a time series change 
 - Change Point Detection Methods
 - Oil Market Event History
 
+## Grade Improvement Plan (Rubric Gaps)
+- **Time Series Analysis (0/6):** Add stationarity tests (ADF/KPSS), volatility analysis (rolling std), and interpret findings in Task 2 EDA.
+- **Core Modeling:** Implement a Bayesian change point model in PyMC with trace diagnostics, posterior plots, and quantified impacts.
+- **Code Best Practices (1/3):** Move reusable logic to `src/` modules (data loading, tests, plots), add basic error handling, and reduce notebook clutter.
+
 ## Data Summary
 - Dataset: Brent oil daily prices
 - Date range: 1987–2022
