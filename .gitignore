@@ -29,3 +29,9 @@ data/
 
 # Pytest
 .pytest_cache/
+
+# Docs artifacts
+docs/*.png
+# Task 1 generated artifacts
+docs/task1_*.png
+docs/task1_final_summary.md
