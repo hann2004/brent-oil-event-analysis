@@ -1,0 +1,55 @@
+{
+  "total_events_analyzed": 5,
+  "average_impact": -30.287830566029935,
+  "max_increase": -2.3826460955903768,
+  "max_decrease": -57.721232100546004,
+  "positive_impacts": 0,
+  "negative_impacts": 5,
+  "detailed_impacts": [
+    {
+      "event": "Lehman Brothers Collapse",
+      "date": "2008-09-15",
+      "type": "Financial Crisis",
+      "pre_avg": 106.39263157894737,
+      "post_avg": 88.24772727272727,
+      "pct_change": -17.05466256162288,
+      "direction": "Decrease"
+    },
+    {
+      "event": "OPEC Decides Not to Cut Output",
+      "date": "2014-11-27",
+      "type": "Policy",
+      "pre_avg": 80.88999999999999,
+      "post_avg": 63.7265,
+      "pct_change": -21.218321176906898,
+      "direction": "Decrease"
+    },
+    {
+      "event": "U.S. Shale Boom Peaks",
+      "date": "2014-01-01",
+      "type": "Supply Shift",
+      "pre_avg": 110.75666666666666,
+      "post_avg": 108.11772727272728,
+      "pct_change": -2.3826460955903768,
+      "direction": "Decrease"
+    },
+    {
+      "event": "COVID-19 Lockdowns & Brent Crash",
+      "date": "2020-04-20",
+      "type": "Pandemic/Demand Shock",
+      "pre_avg": 21.57111111111111,
+      "post_avg": 9.12,
+      "pct_change": -57.721232100546004,
+      "direction": "Decrease"
+    },
+    {
+      "event": "Russia\u2013Saudi Arabia Oil Price War",
+      "date": "2020-03-08",
+      "type": "Supply Shock",
+      "pre_avg": 54.71952380952381,
+      "post_avg": 25.684090909090912,
+      "pct_change": -53.062290895483535,
+      "direction": "Decrease"
+    }
+  ]
+}

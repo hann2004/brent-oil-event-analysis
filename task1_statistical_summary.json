@@ -1,0 +1,77 @@
+{
+  "data_summary": {
+    "total_days": 8360,
+    "date_range": {
+      "start": "1987-05-20",
+      "end": "2020-04-21",
+      "years": 32.92265571526352
+    },
+    "events_count": 24,
+    "events_period": "1990-2022"
+  },
+  "price_statistics": {
+    "mean": 46.459668660287086,
+    "median": 31.75,
+    "std": 32.504670951084194,
+    "min": 9.1,
+    "max": 143.95,
+    "q1": 18.78,
+    "q3": 67.0425
+  },
+  "returns_statistics": {
+    "mean": -8.545320977715719e-05,
+    "std": 0.024875686889043708,
+    "skewness": -2.6225764123021014,
+    "kurtosis": 68.89908649204303,
+    "stationary": "True"
+  },
+  "volatility_analysis": {
+    "avg_30d_vol": 0.020784326095155202,
+    "max_30d_vol": 0.1670444467077407,
+    "min_30d_vol": 0.005806966408459361,
+    "volatility_clusters": "Yes"
+  },
+  "event_analysis": {
+    "by_type": {
+      "Policy": 4,
+      "Conflict": 4,
+      "Financial Crisis": 2,
+      "Conflict/Geopolitical": 1,
+      "Supply Shift": 1,
+      "Conflict & Sanctions": 1,
+      "Pandemic/Demand Shock": 1,
+      "Supply Shock": 1,
+      "Sanctions/Geopolitical": 1,
+      "Demand/Supply Shock": 1,
+      "Geopolitical": 1,
+      "Weather/Production Disruption": 1,
+      "Geopolitical Shock": 1,
+      "Economic Slowdown": 1,
+      "Demand Shock": 1,
+      "Economic Crisis": 1,
+      "Sanctions Policy": 1
+    },
+    "by_decade": {
+      "1990": 4,
+      "2000": 7,
+      "2010": 7,
+      "2020": 6
+    },
+    "top_5_events": [
+      {
+        "event": "OPEC+ Historic Production Cuts",
+        "date": "2020-05-01",
+        "pre_avg_price": 19.70230769230769,
+        "post_avg_price": NaN,
+        "percent_change": NaN
+      },
+      {
+        "event": "COVID-19 Lockdowns & Brent Crash",
+        "date": "2020-04-20",
+        "pre_avg_price": 21.57111111111111,
+        "post_avg_price": 9.12,
+        "percent_change": -57.721232100546004
+      }
+    ]
+  }
+}
