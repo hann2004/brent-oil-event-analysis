@@ -35,3 +35,12 @@ docs/*.png
 # Task 1 generated artifacts
 docs/task1_*.png
 docs/task1_final_summary.md
+# Task 2 generated artifacts
+reports/task2/*.png
+reports/task2/*.json
+reports/task2/*.md
+reports/task2/*.txt
+models/*.nc
+models/*.json
+reports/task2/detailed_insights.json
+reports/task2/detailed_insights_report.md
