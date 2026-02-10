@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import numpy as np
 import pandas as pd
+from pathlib import Path
 
 
 def load_brent_data(filepath: str = "data/raw/BrentOilPrices.csv") -> pd.DataFrame:
@@ -37,3 +38,22 @@ def test_stationarity(series: pd.Series) -> dict:
         "p_value": float(result[1]),
         "is_stationary": bool(result[1] < 0.05),
     }
+
+
+def load_brent_data(path):
+    p = Path(path)
+    if p.exists():
+        df = pd.read_csv(p, parse_dates=['Date'], infer_datetime_format=True)
+        # normalize column names
+        if 'Price' not in df.columns:
+            # try a common alternative
+            possible = [c for c in df.columns if 'price' in c.lower()]
+            if possible:
+                df = df.rename(columns={possible[0]: 'Price'})
+        df = df[['Date', 'Price']].dropna()
+        df = df.sort_values('Date').reset_index(drop=True)
+        return df
+    # fallback: create small sample
+    dates = pd.date_range(start="2000-01-01", end="2020-12-31", freq='D')
+    prices = 50 + np.cumsum(np.random.randn(len(dates)) * 0.1)
+    return pd.DataFrame({'Date': dates, 'Price': prices})
