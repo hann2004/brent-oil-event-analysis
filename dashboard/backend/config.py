@@ -9,6 +9,7 @@ DATA_DIR = BASE_DIR / "data"
 MODELS_DIR = BASE_DIR / "models"
 REPORTS_DIR = BASE_DIR / "reports"
 
+
 class Config:
     DEBUG = True
     SECRET_KEY = os.environ.get("SECRET_KEY", "dev-key-please-change-in-production")
@@ -23,5 +24,6 @@ class Config:
 
     CACHE_TYPE = "simple"
     CACHE_DEFAULT_TIMEOUT = 300
+
 
 config = Config()

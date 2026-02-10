@@ -31,8 +31,11 @@ black==23.9.1
 isort==5.12.0
 pre-commit==3.5.0
 
-# Notes:
-# Frontend: run npm install, then npm start, from /home/nabi/brent-oil-event-analysis/dashboard/frontend
-# If react-scripts is missing: rm -rf node_modules package-lock.json && npm install
-# Or: npm install react-scripts
-# Backend: if port 5000 is busy, run Flask with a different port (e.g., 5001)
+# Reviewer notes:
+# Dashboard backend code: /home/nabi/brent-oil-event-analysis/dashboard/backend
+# Dashboard frontend code: /home/nabi/brent-oil-event-analysis/dashboard/frontend
+# Dashboard README: /home/nabi/brent-oil-event-analysis/dashboard/README.md
+
+# Runtime dependencies
+python-dotenv==1.0.0
+gunicorn==20.1.0
