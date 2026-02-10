@@ -5,6 +5,7 @@ Generate comprehensive insights from Task 2 results.
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys
 
 import matplotlib.pyplot as plt
 import numpy as np

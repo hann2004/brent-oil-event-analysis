@@ -1,26 +1,40 @@
-# Brent Oil Price Analysis: Bayesian Change Point Detection
+# Brent Oil Event Analysis
 
-## 📊 Project Overview
-Bayesian analysis of Brent crude oil prices (1987-2022) to identify and quantify the impact of geopolitical and economic events.
+A full-stack data analysis project for Brent crude oil prices, combining statistical analysis, event impacts, and a modern interactive dashboard.
 
-## 🎯 Objectives
-1. **Task 1**: Research key events & define analysis workflow
-2. **Task 2**: Bayesian change point modeling with PyMC
-3. **Task 3**: Interactive dashboard (Flask + React)
+![Dashboard Preview](docs/dashboared.gif)
 
-## 🚀 Quick Start
+## Highlights
+- Time series analysis with event context
+- Change point detection insights
+- Interactive dashboard (React + Flask)
+- Filters, event highlights, and impact drill-downs
 
-### Installation
+## Project Structure
+```
+brent-oil-event-analysis/
+├── dashboard/
+├── data/
+├── models/
+├── reports/
+└── README.md
+```
+
+## Dashboard
+See `/dashboard/README.md` for setup and usage.
+
+## Quick Start
 ```bash
-git clone https://github.com/yourusername/brent-analysis.git
-cd brent-analysis
+cd dashboard
+./scripts/setup.sh
+./scripts/run.sh
+```
 
-# Create conda environment
-conda create -n brent-analysis python=3.10
-conda activate brent-analysis
+## Data
+Expected datasets:
+- `data/raw/BrentOilPrices.csv`
+- `data/events/key_events.csv`
+- `data/events/enhanced_events.csv`
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Setup pre-commit
-pre-commit install
+## License
+MIT

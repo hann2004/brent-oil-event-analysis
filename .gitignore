@@ -44,3 +44,6 @@ models/*.nc
 models/*.json
 reports/task2/detailed_insights.json
 reports/task2/detailed_insights_report.md
+
+# Dashboard build artifacts
+dashboard/frontend/build/
